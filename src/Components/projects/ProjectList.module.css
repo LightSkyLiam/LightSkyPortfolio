@@ -1,0 +1,13 @@
+.ProjectListContainer {
+  gap: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 992px) {
+  .ProjectListContainer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}

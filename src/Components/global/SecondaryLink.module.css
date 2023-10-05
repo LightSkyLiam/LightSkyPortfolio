@@ -1,0 +1,11 @@
+.secondaryLink:link,
+.secondaryLink:visited {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s all;
+}
+.secondaryLink:hover,
+.secondaryLink:active {
+  color: #69f5ae;
+}

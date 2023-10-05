@@ -1,0 +1,41 @@
+.link:visited,
+.link:link,
+.mobileLink:visited,
+.mobileLink:link {
+  position: relative;
+  font-weight: 300;
+  cursor: pointer;
+  font-size: 1.6rem;
+  text-decoration: none;
+  display: block;
+  transition: all 0.3s;
+  color: #fff;
+}
+.link:visited,
+.link:link {
+  padding: 0.8rem;
+}
+.mobileLink:visited,
+.mobileLink:link {
+  padding: 1.5rem;
+}
+.link.active::after {
+  content: "";
+  background: #69f5ae;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  height: 1px;
+  width: 40%;
+  animation: fadeIn 0.5s;
+}
+
+.link:hover,
+.link:active {
+  color: #69f5ae;
+}
+.link.active {
+  font-weight: 700;
+  color: #69f5ae;
+}

@@ -1,0 +1,13 @@
+@media (max-width: 992px) {
+  .tabs {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    width: 100%;
+  }
+  .skeletonConatiner {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+  }
+}

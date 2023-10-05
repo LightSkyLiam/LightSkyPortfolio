@@ -1,0 +1,20 @@
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 0 4rem;
+}
+
+@media (max-width: 992px) {
+  .hero {
+    padding: 10rem 0 0 0;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(
+      circle at 50%,
+      rgba(105, 245, 175, 0.062),
+      rgba(255, 255, 255, 0) 40%
+    );
+  }
+}

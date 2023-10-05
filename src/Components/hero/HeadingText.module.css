@@ -1,0 +1,41 @@
+.subHeader {
+  color: #b9b9b9;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.2rem;
+  line-height: 2.6rem;
+  margin-bottom: 6rem;
+  padding-top: 2rem;
+}
+.heroHeading {
+  font-family: "DM Sans", sans-serif;
+  letter-spacing: 0.5rem;
+  font-size: 5rem;
+  font-weight: 300;
+}
+/* BELOW 1400px */
+@media (max-width: 1400px) {
+  .heroHeading {
+    font-size: 4rem;
+  }
+}
+/* BELOW 1200px */
+@media (max-width: 1200px) {
+  .heroHeading {
+    font-size: 3rem;
+  }
+  .subHeader {
+    margin-bottom: 5rem;
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 992px) {
+  .heroHeading {
+    font-size: 3rem;
+  }
+  .subHeader {
+    font-size: 1.4rem;
+    padding-top: 0.5rem;
+    width: 75%;
+  }
+}

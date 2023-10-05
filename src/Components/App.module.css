@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body {
+  font-family: "Roboto Mono", sans-serif;
+  background-color: #2b2f32;
+  color: #fff;
+}
+/* 1200px-1424px */
+@media (max-width: 1400px) {
+  html {
+    font-size: 58%;
+  }
+}

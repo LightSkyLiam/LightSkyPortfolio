@@ -1,0 +1,15 @@
+.imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.imageContainer img {
+  width: 100%;
+}
+@media (max-width: 992px) {
+  .imageContainer {
+    align-items: end;
+    width: 40%;
+  }
+}

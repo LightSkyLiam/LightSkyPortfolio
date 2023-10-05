@@ -1,0 +1,21 @@
+.aboutContainer {
+  background: #24282b;
+  padding: 8rem 0 15rem 0;
+  background-image: radial-gradient(
+    circle at 0%,
+    rgba(105, 245, 175, 0.144),
+    rgba(255, 255, 255, 0) 12%
+  );
+}
+
+/* BELOW 1200px */
+@media (max-width: 1200px) {
+  .aboutContainer {
+    padding: 8rem 2rem;
+  }
+}
+@media (max-width: 992px) {
+  .aboutContainer {
+    padding: 6rem rem;
+  }
+}

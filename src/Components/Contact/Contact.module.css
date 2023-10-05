@@ -1,0 +1,8 @@
+.contactSection {
+  padding: 8rem;
+}
+@media (max-width: 1200px) {
+  .contactSection {
+    padding: 4rem;
+  }
+}

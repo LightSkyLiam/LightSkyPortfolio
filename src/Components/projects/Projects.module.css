@@ -1,0 +1,14 @@
+.projectsSection {
+  background-color: #24282b;
+  background-image: radial-gradient(
+    circle at 100%,
+    rgba(105, 245, 175, 0.137),
+    rgba(255, 255, 255, 0) 20%
+  );
+  padding: 0 8rem 8rem 8rem;
+}
+.projectsFlex {
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+}

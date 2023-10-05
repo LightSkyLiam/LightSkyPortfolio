@@ -1,0 +1,47 @@
+.input {
+  font-family: "Dm Sans";
+  font-size: 1.6rem;
+  display: block;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #69f5ae;
+  border-top: 1px solid #2b2f32;
+  padding: 1rem 0.5rem;
+  transition: all 0.3s;
+  width: 55%;
+  margin-bottom: 3rem;
+  color: #fff;
+}
+
+.input::placeholder {
+  font-family: "DM Sans";
+  font-size: 1.6rem;
+}
+
+.input:-webkit-autofill,
+.input:-webkit-autofill:hover,
+.input:-webkit-autofill:focus,
+.input:-webkit-autofill:active {
+  -webkit-text-size-adjust: auto;
+  -webkit-font-feature-settings: inherit;
+  -webkit-text-fill-color: #fff;
+  -webkit-box-shadow: 0 0 0 30px #2b2f32 inset !important;
+}
+.input:-webkit-autofill::first-line {
+  font-family: "Dm Sans";
+  font-size: 1.6rem;
+}
+.input:focus {
+  outline: none;
+  transform: translateY(-0.3rem);
+  -webkit-box-shadow: 0px 14px 13px 2px #69f5af19;
+  box-shadow: 0px 14px 13px 2px #69f5af19;
+}
+.form {
+  gap: 1rem;
+}
+@media (max-width: 992px) {
+  .input {
+    width: 75%;
+  }
+}
